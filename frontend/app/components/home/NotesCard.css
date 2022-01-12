@@ -1,0 +1,86 @@
+.notescard-lower{
+    padding: 15px 25px 15px 25px;
+    background-color: white;
+}
+
+.notescard-div-4, .notescard-div-4:link, .notescard-div-4:visited{
+    margin-bottom: 17px;
+    font-weight: 16px;
+    color: black;
+}
+
+.notescard-div-3, .notescard-div-3:link, .notescard-div-3:visited{
+    font-weight: 13px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.notescard-link-2{
+    width: 100%;
+}
+
+.notescard-icon{
+    display: none;
+}
+
+.notescard-div-1{
+    width: 300px;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+}
+
+.notescard-img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 952px){
+    .notescard-div-1{
+        width: 250px;
+    }
+}
+
+/* @media only screen and (max-width: 833px){
+    .notescard-div-1{
+        width: 230px;
+    }
+} */
+
+
+@media only screen and (max-width: 833px){
+    .notescard-div-1{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .notescard-lower{
+        padding: 0;
+    }
+
+    .notescard-icon{
+        margin-right: 15px;
+        display: unset;
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #879e48ff;
+        display: grid;
+        place-content: center;
+    }
+
+    .notescard-image{
+        display: none;
+    }
+ 
+    .itemsholder-flex{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        
+    }
+}

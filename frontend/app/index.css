@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Verdana, Poppins, Arial, Helvetica, sans-serif;
+    cursor: default;
+    -webkit-box-sizing: border-box; 
+    
+}
+
+.button{
+    padding: 15px 33px 15px 33px;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(198, 44, 44);
+}
+
+
+.scrollable-main{
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+    
+    padding: 26.5px;
+    padding-bottom: 90px;
+    
+    background-color: rgba(244, 238, 245, .51);
+}
+
+.scrollable-main::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollable-main::-webkit-scrollbar-button{
+    display: none;
+}
+
+.scrollable-main::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+.scrollable::-webkit-scrollbar, .scrollable-main::-webkit-scrollbar-track{
+    display: none;
+    height: 100vh;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+.button-primary{
+    background-color: rgb(198, 44, 44);
+}
+
+.button-primary2{
+    background: transparent;
+    color: rgb(198, 44, 44);
+}
+
+.button-secondary{
+    border: 1px solid #d27300ff;
+    background-color: #d27300ff;
+}
+
+.button-secondary2{
+    border: 1px solid #d27300ff;
+    color: #d27300ff;
+    background: transparent;
+}
+
+.bgPrimary{
+    background-color: rgb(198, 44, 44);
+}
+
+.bgSecondary{
+    background-color: rgb(255, 140, 1);
+    border: none;
+}
+
+.bgDark{
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    opacity: 90%;
+}

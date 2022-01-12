@@ -1,0 +1,26 @@
+.todoinput-div-1 {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+}
+
+/* .todoinput-input-2 {} */
+
+.todoinput-button-3 {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #1e0233ff;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #1e0233ff
+}
+
+.todoinput-input-2{
+    width: 100%;
+    flex: 1;
+    -webkit-box-sizing: border-box;
+
+}

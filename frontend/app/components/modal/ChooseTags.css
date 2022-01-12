@@ -1,0 +1,33 @@
+/* .choosetags-modal-1{}
+
+
+
+.choosetags-input-3{} */
+
+.choosetags-button-4 {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #1e0233ff;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #1e0233ff
+}
+
+.choosetags-div-2{
+    background-color: white;
+}
+
+.choosetags-input-3{
+    height: 42px;
+    font-size: 16px;
+    flex: 1;
+    width: 100%;
+    padding-left: 10px;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.choosetags-outer{
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+}

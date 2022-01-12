@@ -1,0 +1,13 @@
+const email = ['lyviabrown@gmail.com', 'lyviamahone@gmail.com', 'lyviamarks@gmail.com', 'scofieldmarks@gmail.com', 'lincolnblack@gmail.com', 'lyviamahone@gmail.com', 'lincolnmahone@gmail.com', 'lindamahone@gmail.com', 'meganmayiga@gmail.com', 'meganwright@gmail.com', 'lordinbrown@gmail.com', 'kylemarks@gmail.com', 'kylemarks@gmail.com', 'lindamahone@gmail.com', 'scofieldmarks@gmail.com', 'meganbrown@gmail.com', 'mikeblack@gmail.com', 'lincolnmahone@gmail.com', 'scofieldmayiga@gmail.com', 'mayigawright@gmail.com', 'mikemayiga@gmail.com', 'kyleblack@gmail.com', 'scofieldblack@gmail.com', 'meganmayiga@gmail.com', 'lordinmahone@gmail.com', 'kylebrown@gmail.com', 'meganbrown@gmail.com', 'mikemarks@gmail.com', 'mikewright@gmail.com', 'kyleblack@gmail.com']
+const name = ['lordinwright', 'lordinmayiga', 'lindawright', 'meganmahone', 'kyleblack', 'lincolnwright', 'lincolnblack', 'lindamarks', 'lyviamayiga', 'mikebrown', 'scofieldmarks', 'mikemayiga', 'lindamahone', 'lordinmahone', 'mikemarks', 'mayigawright', 'lincolnbrown', 'kyleblack', 'lordinmarks', 'lyviamayiga', 'lindamahone', 'lordinmarks', 'meganmayiga', 'lincolnbrown', 'meganblack', 'lincolnmahone', 'lindamarks', 'mikemayiga', 'lindabrown', 'lincolnmayiga']
+const image = ["client-1.jpg", "client-2.jpg", "client-3.jpg", "client-4.jpg", "portfolio-1.jpg", "portfolio-2.jpg", "portfolio-3.jpg", "portfolio-4.jpg"]
+
+const firstName = ["Lordin", "Mike", "Robert", "Sebastian", "Henry", "Lincoln", "Michael", "Michelle", "Edna", "Lyvia", "Linda", "Teddy", "Gretchen", "Tokyo", "Nairobi"]
+const lastName = ["Kenya", "French", "Scofield", "Mayiga", "Peters", "Marks", "Brown"]
+
+const title = ["Swami Gimmick", "Four to Six Card", "Full Deck", "64 Cards Deck", "Squishy balls", "Magic Rings", "Magicians Glue", "Latex Gloves"]
+const shortDescription = ["Lorem ipsum dolor sit amet consectetur adipisicing elit."]
+const longDescription = ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, atque cumque culpa voluptas illum soluta nobis, odit porro fugit laborum cupiditate qui dolores incidunt in."]
+const review = ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eius placeat possimus unde ex fugiat optio eum obcaecati ipsam aperiam magni ad vero nostrum a perferendis amet quasi fuga? Dicta reiciendis, dolores nihil suscipit dignissimos ratione veritatis vero minus cumque!"]
+
+module.exports = {review, email, name, image, firstName, lastName, title, shortDescription, longDescription}

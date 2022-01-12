@@ -1,0 +1,45 @@
+.todoitem-div-1 {
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.todoitem-outer{
+    width: 564px;
+}
+
+.todoitem-checkbox{
+    margin-right: 15px;
+}
+
+.todoitem-complete{
+    color: rgba(0, 0, 0, .7);
+    text-decoration: line-through;
+}
+
+.todoitem-checkbox:checked+label .custom-checkbox {
+    background-color: green;
+}
+
+/* .todoitem-checkbox-2{} */
+
+.todoitem-div-3 {
+    font-size: 16px;
+    color: black;
+    margin-right: 50px;
+}
+
+
+
+@media only screen and (max-width: 607px){
+    .todoitem-outer{
+        width: 100%;
+    }
+
+    .todoinput-input-2{
+        width: 100%;
+    }
+
+}

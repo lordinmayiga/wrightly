@@ -1,0 +1,31 @@
+.createtodo-save{
+    background-color: #879e48;
+    border: 1px solid #879e48;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 7px 13px 7px 13px;
+    color: WHITE;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.createtodo-outer h3{
+    font-size: 30px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.createtodo-outer{
+    max-width: 558px;
+}
+
+.createtodo-container{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.layout-children{
+    width: 100%;
+}

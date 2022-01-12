@@ -1,0 +1,125 @@
+.leftside-div-1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #879e48ff;
+    width: 227px;
+    height: 100vh;
+    padding-top: 24px;
+    position: fixed;
+    /* padding-top: 100px; */
+    transform: translateY(-60px);
+    
+}
+
+.layout-children{
+    padding-top: 70px;
+    padding-right: 90px;
+    -webkit-box-sizing: border-box; 
+}
+
+.leftside-logo{
+    padding-top: 30px;
+    -webkit-box-sizing: border-box;
+    background-color: white;
+    color: #879e48ff;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.leftside-logo div{
+    font-family: "Apple Chancery", "sans-serif";
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 850px){
+    .createnote-outer{
+        margin: 10px 50px 10px 50px;
+    }
+
+    .leftside-div-1{
+        display: flex;
+        flex-direction: row;
+        /* position: unset; */
+        transform: translateY(60px);
+        width: 100%;
+        height: 60px;
+        align-items: center;
+        margin: 0;
+        padding-top: 0;
+        justify-content: space-between;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, .7);
+        z-index: 1;
+        
+    }
+
+
+
+    .leftside-logo{
+        display: none;
+    }
+
+    .layout-add{
+        display: none;
+        
+    }
+
+    .layout-children{
+        padding-top: 130px;
+    }
+
+    .layout-holder{
+        flex-direction: column;
+        
+    }
+
+    .nav-outer{
+        padding-left: 0;
+        padding-right: 0;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 852px){
+    .hometags-outer, .items-outer{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .hometags-outer, .items-outer{
+        margin-left: 0;
+    }
+
+    
+}
+
+@media only screen and (max-width: 607px){
+    .createtodo-outer{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    
+}
+
+
+
+/* 
+.leftside-todoitem-2{}
+
+.leftside-todoitem-3{}
+
+.leftside-todoitem-4{}
+
+.leftside-todoitem-5{} */

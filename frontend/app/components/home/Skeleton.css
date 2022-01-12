@@ -1,0 +1,68 @@
+.skeleton-container{
+    width: 300px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.sk{
+    animation: skeleton 1s linear infinite alternate;
+}
+
+.skeleton-img{
+    width: 100%;
+    height: 350px;
+}
+
+.skeleton-lower{
+    padding: 25px;
+    background-color: white;
+}
+
+.skeleton-title{
+    font-size: 16px;
+    height: 1em;
+    width: 100%;
+    margin-bottom: 17px;
+    content: ""
+}
+
+.skeleton-date{
+    width: 30%;
+    font-size: 13px;
+    height: 1rem;
+}
+
+@keyframes skeleton {
+    0%{
+        background-color: hsl(200, 20%, 70%);
+        color: hsl(200, 20%, 70%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 95%);
+        color: hsl(200, 20%, 95%);
+    }
+
+}
+
+@media only screen and (max-width: 952px){
+    .skeleton-container{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 833px){
+    .skeleton-img{
+        display: none;
+    }
+
+    .skeleton-container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+
+}
+
+
